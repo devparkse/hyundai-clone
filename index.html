@@ -59,6 +59,17 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- 안내창 -->
+    <div class="modal">
+      <div class="modal-box">
+        <p>
+          해당 사이트는 스터디용으로 제작되었으며, 리소스는 원저작자에게 있음을
+          알려드립니다. 문제사항이 있을 시 연락주시면 빠른 시일 내
+          조치하겠습니다. 본 사이트는 Chrome 에 최적화되어 있습니다.
+        </p>
+      </div>
+    </div>
+    <!-- // 안내창 -->
     <div class="wrap">
       <!-- 주메뉴 -->
       <nav class="nav">
@@ -104,16 +115,20 @@
       <header class="header">
         <div class="inner">
           <a href="logo" class="logo">
-            <img src="images/logo2.png" alt="현대그룹" />
+            <img src="images/logo.png" alt="현대그룹" class="logo-w" />
+            <img src="images/logo2.png" alt="현대그룹" class="logo-g" />
           </a>
           <div class="header-right">
             <a href="#" class="metaworld">
               <img src="images/metaverse.png" alt="메타월드" />
             </a>
-            <ul class="language">
-              <li><a href="#">KOR</a></li>
-              <li><a href="#">ENG</a></li>
-            </ul>
+            <div class="language-box">
+              <span class="language-word">KOR</span>
+              <!-- 언어리스트 -->
+              <ul class="language">
+                <li><a href="#">ENG</a></li>
+              </ul>
+            </div>
             <button class="bt-menu">menu</button>
           </div>
         </div>
@@ -554,7 +569,23 @@
               </li>
             </ul>
           </div>
-          <div class="copy"></div>
+          <div class="copy">
+            <div class="copy-left">
+              <a href="#" class="footer-logo">
+                <img src="images/f-logo.png" alt="현대그룹" />
+              </a>
+              <address class="footer-address">
+                (03127) 서울특별시 종로구 율곡로 194 현대그룹빌딩
+              </address>
+            </div>
+            <div class="copy-right">
+              <a href="#" class="footer-lang footer-lang-focus">KOR</a>
+              <a href="#" class="footer-lang">ENG</a>
+              <span class="footer-copy"
+                >CopyrightⓒHyundai Group Co., Ltd. All Rights Reserved.</span
+              >
+            </div>
+          </div>
         </div>
       </footer>
     </div>
