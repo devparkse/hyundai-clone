@@ -64,10 +64,35 @@ body.active {
   z-index: 999999999;
 }
 .modal-box {
-  width: 600px;
-  height: 450px;
+  width: 500px;
+  height: 370px;
+  padding: 50px 0;
   background-color: #fff;
   border-radius: 20px;
+}
+.modal-box h1 {
+  font-size: 55px;
+  font-weight: 500;
+  text-align: center;
+  color: #f57584;
+}
+.modal-notice {
+  padding: 40px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -1.2px;
+}
+.modal-notice strong {
+  color: #f57584;
+}
+.modal-notice span {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+  letter-spacing: -0.8px;
 }
 
 /* 공통요소 */
